@@ -2,7 +2,6 @@ package com.example.exercise.model;
 
 import com.example.exercise.dao.ItemDao;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.sun.istack.internal.NotNull;
 
 
 import javax.persistence.*;
