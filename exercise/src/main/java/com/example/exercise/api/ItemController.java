@@ -46,7 +46,7 @@ public class ItemController {
 
 
     @GetMapping(path = "{id}")
-    @ApiOperation("Get specific item by item id (UUID)")
+    @ApiOperation("Get specific item by item id")
     @ApiResponses(value = {@ApiResponse(code = 200,
             message = "JSON item",
             response = Item.class
